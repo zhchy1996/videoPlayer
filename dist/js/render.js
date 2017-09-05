@@ -16,7 +16,7 @@
       var width = $video.width();
       var height = width / 16 * 9;
       var mHeight = -height;
-      this.height = height;
+      this.height = height - 30;
       $video.height(height)
       $('#danmu').height(height);
       $('#danmu').css('margin-top', mHeight)
