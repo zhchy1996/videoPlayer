@@ -6,7 +6,7 @@
 
   ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/0438E887-BFA8-40A8-B953-AE76499911DE.png)  
 
-  ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/0438E887-BFA8-40A8-B953-AE76499911DE.png)  
+  ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/112B27D0-0436-40F7-A033-B0CD0CC6EB10.png)  
   ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/79412F62-2C28-4D8C-999F-1A379418EEA6.png)  
   ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/C911EBA6-F8ED-4E85-A449-A16B3BB57B57.png)
 
