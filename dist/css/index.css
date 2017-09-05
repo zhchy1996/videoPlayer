@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  max-width: 1050px;
+}
+.wrapper d {
+  font-size: 24px;
+  color: #fff;
+}
+.wrapper .title {
+  text-align: center;
+  background: #222;
+  max-width: 1050px;
+  color: #fff;
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+}
+.wrapper #video {
+  max-width: 1050px;
+}
+.wrapper #danmu {
+  max-width: 1050px;
+  position: relative;
+}
+.wrapper #danmu span {
+  position: absolute;
+  transform: translateX(1050px);
+  margin-top: 10px;
+  transition: all 5s linear;
+}
+.wrapper .control {
+  max-width: 1050px;
+  background: #ccc;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.wrapper .control .jindu {
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  height: 12px;
+}
+.wrapper .control .jindu .tiao {
+  width: 100%;
+  height: 10px;
+  background: skyblue;
+  border-radius: 12px;
+}
+.wrapper .control .jindu .next-tiao {
+  width: 100%;
+  height: 10px;
+  background: blue;
+  border-radius: 12px;
+  position: absolute;
+  top: 0px;
+  transform: translate(-100%);
+}
+.wrapper .control .jindu .next-tiao .slider-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  top: -6px;
+  right: -16px;
+}
+.wrapper .control .jindu .next-tiao .slider-point::after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.wrapper .control .time {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .control .time .now-time {
+  margin-right: auto;
+  width: 100px;
+}
+.wrapper .control .time .all-time {
+  margin-left: auto;
+  width: 100px;
+  text-align: right;
+}
+.wrapper .control .btn {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.wrapper .control .btn .volume-wrapper {
+  position: relative;
+}
+.wrapper .control .btn .volume {
+  width: 20px;
+  height: 200px;
+  background: #fff;
+  position: absolute;
+  top: -200px;
+  left: 20px;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 2px;
+  display: none;
+}
+.wrapper .control .btn .volume .tiao {
+  width: 20px;
+  height: 200px;
+  background: skyblue;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.wrapper .control .btn .volume .next-tiao {
+  width: 20px;
+  height: 200px;
+  background: blue;
+  border-radius: 12px;
+  transform: translateY(-100%);
+}
+.wrapper .control .btn .volume .slider-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.wrapper .control .btn .volume .slider-point::after {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  right: 1px;
+}
+.wrapper .control .btn img {
+  height: 50px;
+  cursor: pointer;
+  margin: 0 12px 0 12px;
+}
+.wrapper .control .full {
+  height: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  margin-top: -20px;
+}

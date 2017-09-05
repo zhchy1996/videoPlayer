@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>h5VideoPlayer</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <script typet="text/javascript" src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="title">爱杀宝贝</div>
+    <video id="video" src="" preload="auto"></video>
+    <div id="danmu">
+
+    </div>
+    <div class="control">
+      <div class="jindu">
+        <div class="tiao">
+        </div>
+        <div class="next-tiao">
+          <span class="slider-point"></span>
+        </div>
+      </div>
+
+
+      <div class="time">
+        <span class="now-time">12:33</span>
+        <span class="all-time">15:00</span>
+
+      </div>
+
+      <div class="btn">
+        <div class="volume-wrapper">
+          <img class="remind" src="/static/img/remind.svg" alt="">
+          <div class="volume">
+            <div class="tiao">
+            </div>
+            <div class="next-tiao">
+              <span class="slider-point"></span>
+            </div>
+          </div>
+        </div>
+
+        <img class="prev" src="/static/img/prev.svg" alt="">
+        <img class="play" src="/static/img/play.svg" alt="">
+        <img class="next" src="/static/img/next.svg" alt="">
+        <img class="stop" src="/static/img/stop.svg" alt="">
+
+      </div>
+      <img class="full" src="/static/img/full.svg" alt="">
+
+    </div>
+  </div>
+</body>
+<script src="./js/danmu.js"></script>
+<script src="./js/control.js"></script>
+<script src="./js/render.js"></script>
+<script src="./js/process.js"></script>
+<script src="./js/index.js"></script>
+
+
+</html>
