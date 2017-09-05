@@ -4,11 +4,11 @@
 * 本项目使用gulp构建，webpack打包，为了模拟前后端交互，播放列表采取了从后台获取的方式，由于视频弹幕接口问题，视频、弹幕储存在本地
 * 截图：  
 
-  ![image](https://github.com/zhchy1996/videoPlayer/tree/master/static/112B27D0-0436-40F7-A033-B0CD0CC6EB10.png)  
+  ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/0438E887-BFA8-40A8-B953-AE76499911DE.png)  
 
-  ![image](https://github.com/zhchy1996/videoPlayer/tree/master/static/0438E887-BFA8-40A8-B953-AE76499911DE.png)  
-  ![image](https://github.com/zhchy1996/videoPlayer/tree/master/static/79412F62-2C28-4D8C-999F-1A379418EEA6.png)  
-  ![image](https://github.com/zhchy1996/videoPlayer/tree/master/static/C911EBA6-F8ED-4E85-A449-A16B3BB57B57.png)
+  ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/0438E887-BFA8-40A8-B953-AE76499911DE.png)  
+  ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/79412F62-2C28-4D8C-999F-1A379418EEA6.png)  
+  ![image](https://github.com/zhchy1996/videoPlayer/raw/master/static/C911EBA6-F8ED-4E85-A449-A16B3BB57B57.png)
 
 
 ## 运行方式
